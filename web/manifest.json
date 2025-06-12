@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Flutter Chrome Extension",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icons/Icon-192.png"
+  },
+"externally_connectable": {
+  "matches": [
+    "http://localhost/*",
+    "http://127.0.0.1/*"
+  ]
+},
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab"]
+}

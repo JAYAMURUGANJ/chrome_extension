@@ -1,21 +1,16 @@
-# Flutter Chrome Extension to Send Data from PHP to Flutter
+# chrome_extension
 
-## 📘 Introduction
+A new Flutter project.
 
-This project demonstrates how to send data from a PHP page to a Flutter Web screen using a Chrome Extension built with Flutter.
+## Getting Started
 
----
+This project is a starting point for a Flutter application.
 
-## 📋 Requirements
+A few resources to get you started if this is your first Flutter project:
 
-- ✅ PHP page for sending data  
-- ✅ Flutter Web project (Chrome Extension) with Service Worker
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
----
-
-## 🛠️ Implementation Steps
-
-### 1. Create Flutter Web-Only Project
-
-```bash
-flutter create <project_name> --platform web
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
